@@ -26,7 +26,7 @@ Author URI: http://iamzed.com/
 
 
 if (!class_exists('MultiPostThumbnails')) {
-
+	#[AllowDynamicProperties]
 	class MultiPostThumbnails {
 
 		/**
